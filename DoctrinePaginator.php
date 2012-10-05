@@ -19,15 +19,15 @@ class DoctrinePaginator implements AdapterInterface{
     protected $count;
 
     /**
-     * @param \Doctrine\ODM\MongoDB\Query\Builder $qb
+     * @param \Doctrine\ODM\MongoDB\Query\Builder $queryBuilder
      */
     public function __construct(Builder $queryBuilder = null){
         $this->queryBuilder = $queryBuilder;
     }
 
     /**
-     * @param \Doctrine\ODM\MongoDB\Query\Builder|null $qb
-     * @return DoctrineMongoODMModule\Paginator\Adapter\DoctrinePaginator
+     * @param \Doctrine\ODM\MongoDB\Query\Builder|null $queryBuilder
+     * @return DoctrinePaginator\Paginator\Adapter
      */
     public function setQueryBuilder(Builder $queryBuilder){
         $this->queryBuilder = $queryBuilder;
@@ -47,7 +47,6 @@ class DoctrinePaginator implements AdapterInterface{
     }
 
     /**
-     * (PHP 5 &gt;= 5.1.0)<br/>
      * Count elements of an object
      * @link http://php.net/manual/en/countable.count.php
      * @return int The custom count as an integer.
