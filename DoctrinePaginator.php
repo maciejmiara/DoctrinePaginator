@@ -1,11 +1,11 @@
 <?php
 
-namespace DoctrineMongoODMModule\Tools\Paginator\Adapter;
+namespace DoctrinePaginator/Paginator;
 
 use Doctrine\ODM\MongoDB\Query\Builder;
 use Zend\Paginator\Adapter\AdapterInterface;
 
-class DoctrinePaginator implements AdapterInterface{
+class Adapter implements AdapterInterface{
 
     /**
      * @var \Doctrine\MongoDB\Query\Builder
