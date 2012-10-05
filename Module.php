@@ -1,11 +1,4 @@
 <?php
-/**
- * Prime Rates (http://www.primerates.com/)
- *
- * @link      http://www.primerates.com/
- * @copyright Copyright (c) 2012 Skygate - the winged software house (http://www.skygate.pl)
- * @license   http://framework.zend.com/license/new-bsd New BSD License
- */
 
 namespace DoctrinePaginator;
 
