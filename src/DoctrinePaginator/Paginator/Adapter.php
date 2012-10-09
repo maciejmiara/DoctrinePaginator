@@ -1,6 +1,6 @@
 <?php
 
-namespace DoctrinePaginator/Paginator;
+namespace DoctrinePaginator\Paginator;
 
 use Doctrine\ODM\MongoDB\Query\Builder;
 use Zend\Paginator\Adapter\AdapterInterface;
